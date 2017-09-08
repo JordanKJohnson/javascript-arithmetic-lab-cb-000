@@ -18,5 +18,5 @@ function inc(a,b){
   for (var i = 0; i < b; i++){
     a*=a;
   }
-  return a;
+  return a+1;
 }
