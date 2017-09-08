@@ -15,7 +15,7 @@ function divide(a,b){
 }
 
 function inc(a,b){
-  for (int i = 0; i < b; i++){
+  for (var i = 0; i < b; i++){
     a*=a;
   }
   return a;
